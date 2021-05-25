@@ -225,6 +225,6 @@ margin-top:25px;
 	height:50px;
 	}
 </style>
-
+<?php wp_footer(); ?>
 </body>
 </html>
