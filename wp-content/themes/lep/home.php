@@ -1,28 +1,25 @@
 <?php get_header(); ?>
 <main class="mainContent-theme  main-index ">
-	<h1 class="hidden entry-title">Lep' Dress</h1>
+	<?php $sliders = get_posts([
+		'post_type' => 'slider'
+	]); ?>
+	<style media="screen">
+		.owl-carousel .owl-item img {
+			height: auto;
+		}
+	</style>
 	<div id="home-slider">
 		<div id="homepage_slider" class="owl-carousel">
+			<?php foreach ($sliders as $key => $post): ?>
+				<?php $url = get_post_meta($post->ID, 'url', true) ?>
+
 			<div class="item ">
-				<a href="/collections/la-flor-collection" title="" aria-label="Banner 1">
-					<picture>
-						<source media="(max-width: 480px)" srcset="/200000258383/file/cover_a8b662c14e1b462ba296fdc3ebce293a_large.jpg">
-						<source media="(min-width: 481px)" srcset="https:/200000258383/file/cover_a8b662c14e1b462ba296fdc3ebce293a.jpg">
-						<img src="https:/200000258383/file/cover_a8b662c14e1b462ba296fdc3ebce293a.jpg" alt="">
-					</picture>
+				<a href="<?php echo $url ?>" title="" aria-label="<?php the_title() ?>">
+							<?php the_post_thumbnail() ?>
 				</a>
 			</div>
-			<div class="item ">
-				<a href="/collections/rythm-of-the-sun" title="" aria-label="Banner 2">
-					<picture>
-						<source class="owl-lazy" media="(max-width: 480px)" data-srcset="/200000258383/file/1_f7b5e31bf00c49c7854957235e24374e_large.jpg"
-							srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
-						<source class="owl-lazy" media="(min-width: 481px)" data-srcset="https:/200000258383/file/1_f7b5e31bf00c49c7854957235e24374e.jpg"
-							srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
-						<img class="owl-lazy" data-src="https:/200000258383/file/1_f7b5e31bf00c49c7854957235e24374e.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-					</picture>
-				</a>
-			</div>
+			<?php endforeach; ?>
+
 		</div>
 	</div>
 	<!-- Nhóm 1 -->
