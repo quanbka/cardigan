@@ -11,26 +11,7 @@
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
 		<!--[if lt IE 9]><script src="//hsta tic.net/0/0/global/design/theme-default/html5shiv.js"></script><![endif]-->
 		<meta content='width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0' name='viewport' />
-		<meta name="revisit-after" content="1 day" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="HandheldFriendly" content="true">
-		<link rel="shortcut icon" href="https://file.hstatic.net/200000258383/file/111_ef8e236541de4a47973f9d0ca91805ec.png" type="image/png" />
-		<title>
-			Lep&#39; Dress
-		</title>
-<meta name="description" content="Váy Lep’ không dành cho những cô gái ngoan luôn e dè, sợ sệt. Váy Lep’ dành cho những cô nàng bên ngoài dịu dàng, bên trong sắc sảo, thoạt nhìn thì thanh lịch, nhưng ngắm lâu lại thấy sexy khó ngờ." />
-		<link rel="canonical" href="https://lep.vn/" />
-		<link rel="amphtml" href="https://lep.vn/?view=amp">
-		<link rel="alternate" href="https://lep.vn/" hreflang="vi-vn" />
-		<meta name="keywords" content="Lep' Dress">
-		<meta name="robots" content="index,follow,noodp">
-		<meta http-equiv="x-dns-prefetch-control" content="on">
-		<link rel="dns-prefetch" href="https://lep.vn">
-		<link rel="dns-prefetch" href="//hstatic.net">
-		<link rel="dns-prefetch" href="//theme.hstatic.net/">
-		<link rel="dns-prefetch" href="//file.hstatic.net/">
-		<link rel="dns-prefetch" href="//www.google-analytics.com/">
-		<link rel="dns-prefetch" href="//www.googletagmanager.com/">
 
 		<!--+++++++++++++++++++++++++  CSS ++++++++++++++++++++++++-->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=vietnamese" rel="stylesheet">
@@ -56,9 +37,9 @@
 	.owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;touch-action:manipulation;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{display:block;width:100%}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;color:inherit;border:none;padding:0!important;font:inherit}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{-ms-touch-action:pan-y;touch-action:pan-y;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{transition:height .5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}.owl-carousel .owl-item .owl-lazy:not([src]),.owl-carousel .owl-item .owl-lazy[src^=""]{max-height:0}.owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:transform .1s ease}.owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}
 	</style>
 
-<link href='//theme.hstatic.net/200000258383/1000664579/14/styles.css?v=728' rel='stylesheet' type='text/css'  media='all'  />
+<link href='/200000258383/1000664579/14/styles.css?v=728' rel='stylesheet' type='text/css'  media='all'  />
 <!--+++++++++++++++++++++++++  JS ++++++++++++++++++++++++-->
-<script src='//theme.hstatic.net/200000258383/1000664579/14/jquery.min.1.11.0.js?v=728' type='text/javascript'></script>
+<script src='/200000258383/1000664579/14/jquery.min.1.11.0.js?v=728' type='text/javascript'></script>
 <script>
 	var template = 'index';
 	var formatMoney = '{{amount}}₫';
@@ -69,96 +50,11 @@
 	jQuery.themeCartSettings = 'overlay';
 </script>
 
-		<meta property="og:type" content="website" />
-<meta property="og:title" content="Lep&#39; Dress" />
-<meta property="og:image" content="http://file.hstatic.net/200000258383/file/12_eafdd63aa5274ff38b36b96234f26d8b.jpg" />
-<meta property="og:image:secure_url" content="https://file.hstatic.net/200000258383/file/12_eafdd63aa5274ff38b36b96234f26d8b.jpg" />
-<meta property="og:description" content="Váy Lep’ không dành cho những cô gái ngoan luôn e dè, sợ sệt. Váy Lep’ dành cho những cô nàng bên ngoài dịu dàng, bên trong sắc sảo, thoạt nhìn thì thanh lịch, nhưng ngắm lâu lại thấy sexy khó ngờ." /><meta property="og:url" content="https://lep.vn/" />
-<meta property="og:site_name" content="Lep' Dress" />
 
 
 
 
-
-		<!-- SEO META DESCRIPTION -->
-<meta name="description" content="Váy Lep’ không dành cho những cô gái ngoan luôn e dè, sợ sệt. Váy Lep’ dành cho những cô nàng bên ngoài dịu dàng, bên trong sắc sảo, thoạt nhìn thì thanh lịch, nhưng ngắm lâu lại thấy sexy khó ngờ." />
-<!-- END SEO META DESCRIPTION -->
-<!-- SEO PAGI -->
-<!-- END SEO PAGI -->
-		<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","name":"lep.vn","url":"https://lep.vn","potentialAction":{"@type":"SearchAction","target":"https://lep.vn/search?&q={search_term_string}","query-input":"required name=search_term_string"}}</script>
-
-
-
-
-
-
-			 <script type='text/javascript'>
-//<![CDATA[
-if ((typeof Haravan) === 'undefined') {
-  Haravan = {};
-}
-Haravan.culture = 'vi-VN';
-Haravan.shop = 'lepvn.myharavan.com';
-Haravan.theme = {"name":"lama fashion","id":1000664579,"role":"main"};
-Haravan.domain = 'lep.vn';
-//]]>
-</script>
-<script type='text/javascript'>!function(){var hrv_analytics=window.hrv_analytics=window.hrv_analytics||[];if(!hrv_analytics.initialize)if(hrv_analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{hrv_analytics.invoked=!0;hrv_analytics.methods=["start","trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];hrv_analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);hrv_analytics.push(e);return hrv_analytics}};for(var t=0;t<hrv_analytics.methods.length;t++){var e=hrv_analytics.methods[t];hrv_analytics[e]=hrv_analytics.factory(e)}hrv_analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://stats.hstatic.net/analytics.min.js?t=2";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);hrv_analytics._loadOptions=e};hrv_analytics.SNIPPET_VERSION="4.1.0";hrv_analytics.start('pro:web:200000258383');hrv_analytics.page();hrv_analytics.load();}}();</script><style>.grecaptcha-badge{visibility:hidden;}</style>
-<script type='text/javascript'>
-window.HaravanAnalytics = window.HaravanAnalytics || {};
-window.HaravanAnalytics.meta = window.HaravanAnalytics.meta || {};
-window.HaravanAnalytics.meta.currency = 'VND';
-var meta = {"page":{"pageType":"home"}};
-for (var attr in meta) {
-	window.HaravanAnalytics.meta[attr] = meta[attr];
-}
-window.HaravanAnalytics.AutoTrack = true;
-</script>
-<script>
-//<![CDATA[
-window.HaravanAnalytics.ga = "UA-143762331-2";
-window.HaravanAnalytics.enhancedEcommerce = false;
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', window.HaravanAnalytics.ga, 'auto', {allowLinker: true});
-ga('send', 'pageview'); ga('require', 'linker');
-                //]]>
-                </script>
-                <script>
-window.HaravanAnalytics.fb = "245590216914116";
-//<![CDATA[
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','//connect.facebook.net/en_US/fbevents.js');
-// Insert Your Facebook Pixel ID below.
-fbq('init', window.HaravanAnalytics.fb, {} , {'agent':'plharavan'});
-fbq('track', 'PageView');
-//]]>
-</script>
-<noscript><img height='1' width='1' style='display:none' src='https://www.facebook.com/tr?id=245590216914116&amp;ev=PageView&amp;noscript=1'/></noscript>
-
-		<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '{your-pixel-id-goes-here}');
-  fbq('track', 'PageView');
-</script>
-<noscript>
-  <img height="1" width="1" style="display:none"
-       src="https://www.facebook.com/tr?id=415592889034644&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
+<style>.grecaptcha-badge{visibility:hidden;}</style>
 	</head>
 	<body id="lama-theme" class="index">
 		<svg xmlns="http://www.w3.org/2000/svg" class="hidden">
@@ -401,7 +297,7 @@ fbq('track', 'PageView');
 					<div class="header-logo wrap-logo" itemscope="" itemtype="http://schema.org/Organization">
 
 						<a href="https://lep.vn" itemprop="url" aria-label="Lep' Dress">
-							<img itemprop="logo" src="https://file.hstatic.net/200000258383/file/111_ef8e236541de4a47973f9d0ca91805ec.png" alt="Lep' Dress" class="img-responsive logoimg"/>
+							<img itemprop="logo" src="https:/200000258383/file/111_ef8e236541de4a47973f9d0ca91805ec.png" alt="Lep' Dress" class="img-responsive logoimg"/>
 						</a>
 
 					</div>
@@ -555,110 +451,7 @@ fbq('track', 'PageView');
 								</div>
 							</div>
 						</div>
-						<div class="header-action header-action_account">
-							<div class="header-action_text">
-							<a class="header-action__link  header-action-toggle "  href="javascript:void(0);" id="site-account-handle"  aria-label="Tài khoản" title="Tài khoản">
-										<span class="box-icon">
-										<svg class="svg-ico-account" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
-											<g><g id="account-circle">
-												<path d="M255,0C114.75,0,0,114.75,0,255s114.75,255,255,255s255-114.75,255-255S395.25,0,255,0z M255,76.5
-																 c43.35,0,76.5,33.15,76.5,76.5s-33.15,76.5-76.5,76.5c-43.35,0-76.5-33.15-76.5-76.5S211.65,76.5,255,76.5z M255,438.6
-																 c-63.75,0-119.85-33.149-153-81.6c0-51,102-79.05,153-79.05S408,306,408,357C374.85,405.45,318.75,438.6,255,438.6z"></path>
-												</g></g>
-										</svg>
-										<span class="box-icon--close">
-											<svg  viewBox="0 0 19 19" role="presentation"><path d="M9.1923882 8.39339828l7.7781745-7.7781746 1.4142136 1.41421357-7.7781746 7.77817459 7.7781746 7.77817456L16.9705627 19l-7.7781745-7.7781746L1.41421356 19 0 17.5857864l7.7781746-7.77817456L0 2.02943725 1.41421356.61522369 9.1923882 8.39339828z" fill="currentColor" fill-rule="evenodd"></path></svg>
-										</span>
-									</span>
-								</a>
-							</div>
-
-							<div class="header-action_dropdown ">
-								<span class="box-triangle">
-									<svg viewBox="0 0 20 9" role="presentation">
-										<path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
-									</svg>
-								</span>
-								<div class="header-dropdown_content">
-									<div class="site_account " id="siteNav-account" >
-	<div class="site_account_panel_list">
-		<div id="header-login-panel" class="site_account_panel site_account_default is-selected">
-			<header class="site_account_header">
-				<h2 class="site_account_title heading">Đăng nhập tài khoản</h2>
-				<p class="site_account_legend">Nhập email và mật khẩu của bạn:</p>
-			</header>
-			<div class="site_account_inner">
-				<form accept-charset='UTF-8' action='/account/login' id='customer_login' method='post'>
-<input name='form_type' type='hidden' value='customer_login'>
-<input name='utf8' type='hidden' value='✓'>
-
-
-
-				<div class="form__input-wrapper form__input-wrapper--labelled">
-					<input type="email" id="login-customer[email]" class="form__field form__field--text" name="customer[email]" required="required">
-					<label for="login-customer[email]" class="form__floating-label">Email</label>
-				</div>
-				<div class="form__input-wrapper form__input-wrapper--labelled">
-
-					<input type="password" id="login-customer[password]" class="form__field form__field--text" name="customer[password]" required="required" autocomplete="current-password">
-					<label for="login-customer[password]" class="form__floating-label">Mật khẩu</label>
-
-					<div class="sitebox-recaptcha">
-						This site is protected by reCAPTCHA and the Google
-						<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">Privacy Policy</a>
-						and <a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">Terms of Service</a> apply.
-					</div>
-				</div>
-				<button type="submit" class="form__submit button dark" id="form_submit-login">Đăng nhập</button>
-
-<input id='9b3a3ab012984860858f96bfc0feb408' name='g-recaptcha-response' type='hidden'><script src='https://www.google.com/recaptcha/api.js?render=6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-'></script><script>grecaptcha.ready(function() {grecaptcha.execute('6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-', {action: 'submit'}).then(function(token) {document.getElementById('9b3a3ab012984860858f96bfc0feb408').value = token;});});</script></form>
-				<div class="site_account_secondary-action">
-					<p>Khách hàng mới?
-						<a class="link" href="/account/register">Tạo tài khoản</a>
-					</p>
-					<p>Quên mật khẩu?
-						<button aria-controls="header-recover-panel" class="js-link link">Khôi phục mật khẩu</button>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div id="header-recover-panel" class="site_account_panel  site_account_sliding">
-			<header class="site_account_header">
-				<h2 class="site_account_title heading">Khôi phục mật khẩu</h2>
-				<p class="site_account_legend">Nhập email của bạn:</p>
-			</header>
-			<div class="site_account_inner">
-				<form accept-charset='UTF-8' action='/account/recover' method='post'>
-<input name='form_type' type='hidden' value='recover_customer_password'>
-<input name='utf8' type='hidden' value='✓'>
-
-
-
-				<div class="form__input-wrapper form__input-wrapper--labelled">
-					<input type="email" id="recover-customer[recover_email]" class="form__field form__field--text" name="email" required="required">
-					<label for="recover-customer[recover_email]" class="form__floating-label">Email</label>
-					<div class="sitebox-recaptcha">
-						This site is protected by reCAPTCHA and the Google
-						<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">Privacy Policy</a>
-						and <a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">Terms of Service</a> apply.
-					</div>
-				</div>
-				<button type="submit" class="form__submit button dark" id="form_submit-recover">Khôi phục</button>
-
-<input id='7844ae8de7b94282b82cacb0392aebb9' name='g-recaptcha-response' type='hidden'><script src='https://www.google.com/recaptcha/api.js?render=6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-'></script><script>grecaptcha.ready(function() {grecaptcha.execute('6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-', {action: 'submit'}).then(function(token) {document.getElementById('7844ae8de7b94282b82cacb0392aebb9').value = token;});});</script></form>				<div class="site_account_secondary-action">
-					<p>Bạn đã nhớ mật khẩu?
-						<button aria-controls="header-login-panel" class="js-link link">Trở về đăng nhập</button>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-								</div>
-							</div>
-
-						</div>
+						
 						<div class="header-action header-action_cart">
 							<div class="header-action_text">
 								<a class="header-action__link header-action-toggle"  href="javascript:void(0)" id="site-cart-handle"  aria-label="Giỏ hàng" title="Giỏ hàng">

@@ -43,7 +43,7 @@
 
 							<div class="logo-footer">
 								<a href="http://online.gov.vn/Home/WebDetails/75961" target="_blank" rel="nofollow noreferrer">
-									<img src="https://file.hstatic.net/200000258383/file/logosalenoti_e846b47ea6254c96a889125e1c53cf5c.png" alt="Bộ Công Thương">
+									<img src="https:/200000258383/file/logosalenoti_e846b47ea6254c96a889125e1c53cf5c.png" alt="Bộ Công Thương">
 								</a>
 							</div>
 
@@ -121,24 +121,7 @@
 							Fanpage
 						</h4>
 						<div class="footer-content footer-contact">
-							<!-- Facebook widget -->
-							<div class="footer-static-content">
-								<div class="fb-page" data-href="https://www.facebook.com/Lep.by.Tram"  data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">	</div>
-							</div>
-							<div style="clear:both;" ></div>
 
-							<!-- #Facebook widget -->
-							<script>
-								setTimeout(function(){
-									(function(d, s, id) {
-										var js, fjs = d.getElementsByTagName(s)[0];
-										if (d.getElementById(id)) return;
-										js = d.createElement(s); js.id = id;
-										js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.0";
-										fjs.parentNode.insertBefore(js, fjs);
-									}(document, 'script', 'facebook-jssdk'));
-								},5000);
-							</script>
 
 						</div>
 					</div>
@@ -164,13 +147,13 @@
 			</div>
 			<div id="site-overlay" class="site-overlay"></div>
 		</div>
-		<script src='//hstatic.net/0/0/global/option_selection.js' type='text/javascript'></script>
-<script src='//hstatic.net/0/0/global/api.jquery.js' type='text/javascript'></script>
-<script src='//theme.hstatic.net/200000258383/1000664579/14/plugins.js?v=728' type='text/javascript'></script>
+		<script src='/0/0/global/option_selection.js' type='text/javascript'></script>
+<script src='/0/0/global/api.jquery.js' type='text/javascript'></script>
+<script src='/200000258383/1000664579/14/plugins.js?v=728' type='text/javascript'></script>
 
 <!-- haravan app -->
 <!-- END - haravan app -->
-<script src='//theme.hstatic.net/200000258383/1000664579/14/scripts.js?v=728' type='text/javascript'></script>
+<script src='/200000258383/1000664579/14/scripts.js?v=728' type='text/javascript'></script>
 <!-- POPUP LOAD -->
 <!--END *** POPUP LOAD =====================-->
 
@@ -201,7 +184,7 @@
 
 
 	<div class="item">
-		<a href="https://www.m.me/Lep.by.Tram/"><img src="//theme.hstatic.net/200000258383/1000664579/14/anhicon1.png?v=728" alt="social" /></a>
+		<a href="https://www.m.me/Lep.by.Tram/"><img src="/200000258383/1000664579/14/anhicon1.png?v=728" alt="social" /></a>
 	</div>
 
 
