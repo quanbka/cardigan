@@ -196,3 +196,16 @@ function overrideSubmenuClasses( $classes ) {
     return $classes;
 }
 add_action('nav_menu_submenu_css_class', 'overrideSubmenuClasses');
+
+
+register_post_type('slider', [
+	'label' => 'Slider',
+	'public' => true,
+	'supports' => [
+		'title', 'thumbnail', 'custom-fields'
+	]
+]);
+
+add_post_type_support( 'slider', 'my_feature', array(
+    'field' => 'value',
+) );
