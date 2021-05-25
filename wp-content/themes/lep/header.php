@@ -15728,76 +15728,15 @@
 														<nav id="mp-menu" class="mp-menu mp-cover">
 															<div class="mp-level" data-level="1">
 																<div class="mplus-menu">
-																	<ul class="mm-panel vertical-menu-list list-root">
-																		<li class="active">
-																			<a class="parent" href="/">Trang chủ</a>
-																		</li>
-																		<li class="">
-																			<a class="parent" href="/pages/about-us">Giới thiệu</a>
-																		</li>
-																		<li class="">
-																			<a class="parent" href="/collections/hot-products">New Arrivals</a>
-																		</li>
-																		<li class="" data-menu-root="102299817">
-																			<a class="parent" href="/collections/san-pham-goi-y">Collection
-																				<i>
-																					<svg class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
-																						<path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
-																					</svg>
-																				</i>
-																			</a>
-																		</li>
-																		<li class="">
-																			<a class="parent" href="/blogs/news">Tuyển dụng</a>
-																		</li>
-																		<li class="mm-divider">
-																			<div class="mobile-menu__section mobile-menu__section--loose">
-																				<p class="mobile-menu__section-title">Bạn cần hỗ trợ?</p>
-																				<div class="mobile-menu__help-wrapper">
-																					<svg class="icon icon--bi-phone" viewBox="0 0 24 24" role="presentation">
-																						<g stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
-																							<path d="M17 15l-3 3-8-8 3-3-5-5-3 3c0 9.941 8.059 18 18 18l3-3-5-5z" stroke="#1e2d7d"></path>
-																							<path d="M14 1c4.971 0 9 4.029 9 9m-9-5c2.761 0 5 2.239 5 5" stroke="#00badb"></path>
-																						</g>
-																					</svg>
-																					<a href="tel:0393644116" rel="nofollow">Liên hệ: 0393644116</a>
-																				</div>
-																				<div class="mobile-menu__help-wrapper">
-																					<svg class="icon icon--bi-email" viewBox="0 0 22 22" role="presentation">
-																						<g fill="none" fill-rule="evenodd">
-																							<path stroke="#00badb" d="M.916667 10.08333367l3.66666667-2.65833334v4.65849997zm20.1666667 0L17.416667 7.42500033v4.65849997z"></path>
-																							<path stroke="#1e2d7d" stroke-width="2" d="M4.58333367 7.42500033L.916667 10.08333367V21.0833337h20.1666667V10.08333367L17.416667 7.42500033"></path>
-																							<path stroke="#1e2d7d" stroke-width="2" d="M4.58333367 12.1000003V.916667H17.416667v11.1833333m-16.5-2.01666663L21.0833337 21.0833337m0-11.00000003L11.0000003 15.5833337"></path>
-																							<path d="M8.25000033 5.50000033h5.49999997M8.25000033 9.166667h5.49999997" stroke="#00badb" stroke-width="2" stroke-linecap="square"></path>
-																						</g>
-																					</svg>
-																					<a href="mailto:info@lep.vn" rel="nofollow">info@lep.vn</a>
-																				</div>
-																			</div>
-																		</li>
-																	</ul>
-																	<ul class="mm-panel list-child" id="102299817">
-																		<li><a href="javascript:;"><i class="fa fa-angle-left" aria-hidden="true"></i>Quay về</a></li>
-																		<li><a href="/collections/san-pham-goi-y"><b>Xem tất cả "Collection"</b></a></li>
-																		<li class="">
-																			<a href="/collections/la-flor-collection"><span>-</span>La Flor Collection</a>
-																		</li>
-																		<li class="">
-																			<a href="/collections/rythm-of-the-sun"><span>-</span>Rythm Of The Sun</a>
-																		</li>
-																		<li class="">
-																			<a href="/collections/everyday-everywhere"><span>-</span>Everyday Everywhere</a>
-																		</li>
-																		<li class="">
-																			<a href="/collections/love-sunny"><span>-</span>Love Sunny</a>
-																		</li>
-																		<li class="">
-																			<a href="/collections/la-dolce-vita"><span>-</span>La Dolce Vita</a>
-																		</li>
-																		<li class="">
-																			<a href="/collections/to-the-beautiful-you"><span>-</span>To The Beautiful You</a>
-																		</li>
-																	</ul>
+																	<?php
+																	wp_nav_menu(
+																		array(
+																			'theme_location' => 'menu-1',
+																			'container' 		 => 'ul',
+																			'menu_class' => 'mm-panel vertical-menu-list list-root'
+																		)
+																	);
+																	?>
 																</div>
 															</div>
 														</nav>
