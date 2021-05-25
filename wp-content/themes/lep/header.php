@@ -55,6 +55,10 @@
 
 
 <style>.grecaptcha-badge{visibility:hidden;}</style>
+<?php
+	wp_deregister_script('jquery');
+	wp_head();
+	 ?>
 	</head>
 	<body id="lama-theme" class="index">
 		<svg xmlns="http://www.w3.org/2000/svg" class="hidden">
@@ -451,7 +455,7 @@
 								</div>
 							</div>
 						</div>
-						
+
 						<div class="header-action header-action_cart">
 							<div class="header-action_text">
 								<a class="header-action__link header-action-toggle"  href="javascript:void(0)" id="site-cart-handle"  aria-label="Giỏ hàng" title="Giỏ hàng">
