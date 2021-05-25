@@ -300,7 +300,7 @@
 				<div class="header-upper-logo">
 					<div class="header-logo wrap-logo" itemscope="" itemtype="http://schema.org/Organization">
 
-						<a href="https://lep.vn" itemprop="url" aria-label="Lep' Dress">
+						<a href="" itemprop="url" aria-label="Lep' Dress">
 							<img itemprop="logo" src="https:/200000258383/file/111_ef8e236541de4a47973f9d0ca91805ec.png" alt="Lep' Dress" class="img-responsive logoimg"/>
 						</a>
 

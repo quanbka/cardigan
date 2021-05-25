@@ -14,7 +14,7 @@
 
 
 		<div class="item ">
-			<a href="https://lep.vn/collections/la-flor-collection" title="" aria-label="Banner 1">
+			<a href="/collections/la-flor-collection" title="" aria-label="Banner 1">
 
 				<picture>
 					<source media="(max-width: 480px)" srcset="/200000258383/file/cover_a8b662c14e1b462ba296fdc3ebce293a_large.jpg">
@@ -33,7 +33,7 @@
 
 
 		<div class="item ">
-			<a href="https://lep.vn/collections/rythm-of-the-sun" title="" aria-label="Banner 2">
+			<a href="/collections/rythm-of-the-sun" title="" aria-label="Banner 2">
 
 				<picture>
 					<source class="owl-lazy" media="(max-width: 480px)" data-srcset="/200000258383/file/1_f7b5e31bf00c49c7854957235e24374e_large.jpg"
@@ -573,7 +573,7 @@
 	<div class="clearfix">
 		<div class="col-xs-12 col-sm-4 col-md-4 home-banner-pd">
 			<div class="block-banner-category ratiobox">
-				<a  class="link-banner" href="https://lep.vn/collections/la-flor-collection">
+				<a  class="link-banner" href="/collections/la-flor-collection">
 					<img class="lazyload" data-sizes="auto"
 							 data-src="https:/200000258383/file/1_6dbe86e3a3b540b399e918ff0fc41bb0.jpg"  data-lowsrc="https:/200000258383/file/1_6dbe86e3a3b540b399e918ff0fc41bb0.jpg"
 							 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
@@ -588,7 +588,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-4 col-md-4 home-banner-pd">
 			<div class="block-banner-category ratiobox">
-				<a  class="link-banner" href="https://lep.vn/collections/la-dolce-vita">
+				<a  class="link-banner" href="/collections/la-dolce-vita">
 					<img class="lazyload" data-sizes="auto"
 							 data-src="https:/200000258383/file/7_2c8384e7dd5f456d99fdbca6a1e24b5b.jpg"  data-lowsrc="https:/200000258383/file/7_2c8384e7dd5f456d99fdbca6a1e24b5b.jpg"
 							 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
@@ -603,7 +603,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-4 col-md-4 home-banner-pd">
 			<div class="block-banner-category ratiobox">
-				<a  class="link-banner" href="https://lep.vn/collections/rythm-of-the-sun">
+				<a  class="link-banner" href="/collections/rythm-of-the-sun">
 					<img class="lazyload" data-sizes="auto"
 							 data-src="https:/200000258383/file/165674314_3534196653353595_8248646620062388986_n_8970491e31bd422daf66e7fcddf58123.jpg" data-lowsrc="https:/200000258383/file/165674314_3534196653353595_8248646620062388986_n_8970491e31bd422daf66e7fcddf58123.jpg"
 							 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="

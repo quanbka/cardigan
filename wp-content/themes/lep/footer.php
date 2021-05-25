@@ -132,7 +132,7 @@
 	</div>
 	<div class="bottom-footer text-center">
 		<div class="container-fluid">
-			<p>Copyright © 2021 <a href="https://lep.vn"> Lep' Dress</a>.</p>
+			<p>Copyright © 2021 <a href=""> Lep' Dress</a>.</p>
 		</div>
 	</div>
 </footer>
