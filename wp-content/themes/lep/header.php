@@ -279,14 +279,6 @@
 								<a href="/collections/to-the-beautiful-you" ><span>-</span>To The Beautiful You</a>
 							</li>
 						</ul>
-
-
-
-
-
-
-
-
 					</div>
 				</div>
 			</nav>
@@ -299,112 +291,23 @@
 				</div>
 				<div class="header-upper-logo">
 					<div class="header-logo wrap-logo" itemscope="" itemtype="http://schema.org/Organization">
-
-						<a href="" itemprop="url" aria-label="Lep' Dress">
-							<img itemprop="logo" src="https:/200000258383/file/111_ef8e236541de4a47973f9d0ca91805ec.png" alt="Lep' Dress" class="img-responsive logoimg"/>
-						</a>
-
+							<?php echo the_custom_logo() ?>
 					</div>
 				</div>
 				<div class="header-upper-menu hidden-sm hidden-xs">
 					<div class="menu-desktop ">
 						<div id="nav">
 	<nav class="main-nav text-center">
-		<ul class="clearfix">
+		<?php
+		wp_nav_menu(
+			array(
+				'theme_location' => 'menu-1',
+				'menu_id'        => 'primary-menu',
+				'container' 		 => 'ul'
+			)
+		);
+		?>
 
-
-			<li class="active">
-				<a href="/" title="Trang chủ">
-					Trang chủ
-				</a>
-			</li>
-
-
-
-			<li class="">
-				<a href="/pages/about-us" title="Giới thiệu">
-					Giới thiệu
-				</a>
-			</li>
-
-
-
-			<li class="">
-				<a href="/collections/hot-products" title="New Arrivals">
-					New Arrivals
-				</a>
-			</li>
-
-
-
-			<li class="">
-				<a href="/collections/san-pham-goi-y" title="Collection">
-					Collection
-					<i class="fa fa-chevron-down" aria-hidden="true"></i>
-				</a>
-				<ul class="sub_menu">
-
-
-					<li class="">
-						<a href="/collections/la-flor-collection" title="La Flor Collection">
-							La Flor Collection
-						</a>
-					</li>
-
-
-
-					<li class="">
-						<a href="/collections/rythm-of-the-sun" title="Rythm Of The Sun">
-							Rythm Of The Sun
-						</a>
-					</li>
-
-
-
-					<li class="">
-						<a href="/collections/everyday-everywhere" title="Everyday Everywhere">
-							Everyday Everywhere
-						</a>
-					</li>
-
-
-
-					<li class="">
-						<a href="/collections/love-sunny" title="Love Sunny">
-							Love Sunny
-						</a>
-					</li>
-
-
-
-					<li class="">
-						<a href="/collections/la-dolce-vita" title="La Dolce Vita">
-							La Dolce Vita
-						</a>
-					</li>
-
-
-
-					<li class="">
-						<a href="/collections/to-the-beautiful-you" title="To The Beautiful You">
-							To The Beautiful You
-						</a>
-					</li>
-
-
-				</ul>
-			</li>
-
-
-
-			<li class="">
-				<a href="/blogs/news" title="Tuyển dụng">
-					Tuyển dụng
-				</a>
-			</li>
-
-
-		</ul>
 	</nav>
 </div>
 
@@ -438,10 +341,10 @@
 									<div class="site_search">
 
 										<div class="search-box wpo-wrapper-search">
-											<form action="/search" class="searchform searchform-categoris ultimate-search">
+											<form action="/" class="searchform searchform-categoris ultimate-search">
 												<div class="wpo-search-inner">
-													<input type="hidden" name="type" value="product" />
-													<input required id="inputSearchAuto" name="q" maxlength="40" autocomplete="off" class="searchinput input-search search-input" type="text" size="20" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+													<input type="hidden" name="post_type" value="product" />
+													<input required id="inputSearchAuto" name="s" maxlength="40" autocomplete="off" class="searchinput input-search search-input" type="text" size="20" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
 												</div>
 												<button type="submit" class="btn-search btn" id="search-header-btn" aria-label="Tìm kiếm">
 													<svg version="1.1" class="svg search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 27" style="enable-background:new 0 0 24 27;" xml:space="preserve"><path d="M10,2C4.5,2,0,6.5,0,12s4.5,10,10,10s10-4.5,10-10S15.5,2,10,2z M10,19c-3.9,0-7-3.1-7-7s3.1-7,7-7s7,3.1,7,7S13.9,19,10,19z"></path><rect x="17" y="17" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -9.2844 19.5856)" width="4" height="8"></rect></svg>

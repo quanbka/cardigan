@@ -6,7 +6,7 @@ var check_show_modal = true;
 var add_item_show_modalCart = function(id,link_checkout) {
 	if( check_show_modal ) {
 		check_show_modal = false;
-		timeOut_modalCart = setTimeout(function(){ 
+		timeOut_modalCart = setTimeout(function(){
 			check_show_modal = true;
 		}, 1000);
 		if ($('.addtocart-modal').hasClass('clicked_buy') ) {
@@ -24,9 +24,9 @@ var add_item_show_modalCart = function(id,link_checkout) {
 				if(link_checkout != undefined){
 					window.location = "/checkout";
 				}
-				else{			
-					getCartModal();					
-					jQuery('#myCart').modal('show');				
+				else{
+					getCartModal();
+					jQuery('#myCart').modal('show');
 					jQuery('.modal-backdrop').css({'height':jQuery(document).height(),'z-index':'99'});
 				}
 				$('.addtocart-modal').removeClass('clicked_buy');
@@ -38,7 +38,7 @@ var add_item_show_modalCart = function(id,link_checkout) {
 		jQuery.ajax(params);
 	}
 }
-// Plus number quantiy product detail 
+// Plus number quantiy product detail
 var plusQuantity = function() {
 	if ( jQuery('input[name="quantity"]').val() != undefined ) {
 		var currentVal = parseInt(jQuery('input[name="quantity"]').val());
@@ -51,7 +51,7 @@ var plusQuantity = function() {
 		console.log('error: Not see elemnt ' + jQuery('input[name="quantity"]').val());
 	}
 }
-// Minus number quantiy product detail 
+// Minus number quantiy product detail
 var minusQuantity = function() {
 	if ( jQuery('input[name="quantity"]').val() != undefined ) {
 		var currentVal = parseInt(jQuery('input[name="quantity"]').val());
@@ -94,12 +94,12 @@ function getCartModal(){
 			jQuery('.item-total').html(Haravan.formatMoney(cart.total_price, formatMoney));
 			jQuery('.modal-title').children('b').html(cart.item_count);
 			jQuery('.count-holder .count').html(cart.item_count );
-			if(cart.item_count == 0){				
+			if(cart.item_count == 0){
 				jQuery('#exampleModalLabel').html('Giỏ hàng của bạn đang trống. Mời bạn tiếp tục mua hàng.');
 				jQuery('#cart-view').html('<tr class="item-cart_empty"><td><div class="svgico-mini-cart"> <svg width="81" height="70" viewBox="0 0 81 70"><g transform="translate(0 2)" stroke-width="4" stroke="#1e2d7d" fill="none" fill-rule="evenodd"><circle stroke-linecap="square" cx="34" cy="60" r="6"></circle><circle stroke-linecap="square" cx="67" cy="60" r="6"></circle><path d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"></path></g></svg></div> Hiện chưa có sản phẩm</td></tr>');
 				jQuery('#cartform').hide();
 			}
-			else{			
+			else{
 				jQuery('#exampleModalLabel').html('Bạn có ' + cart.item_count + ' sản phẩm trong giỏ hàng.');
 				jQuery('#cartform').removeClass('hidden');
 				jQuery('#cart-view').html('');
@@ -140,7 +140,7 @@ function getCartModal(){
 		$('.header-action_cart').addClass("show-action");
 		$('body').addClass("locked-scroll");
 		jQuery('html, body').animate({
-			scrollTop: 0			
+			scrollTop: 0
 		}, 600);
 	}
 }
@@ -258,15 +258,15 @@ function fixHeightProduct(data_parent, data_target, data_image) {
 	} catch (ex) {}
 }
 // Image Product Loaded fix height
-$(document).on('lazyloaded', function(e){	//lazybeforeunveil 
+$(document).on('lazyloaded', function(e){	//lazybeforeunveil
 	fixHeightProduct('.wrapper-collection-1 .content-product-list', '.product-resize', '.image-resize');
-	if(jQuery(window).width() > 991){		
+	if(jQuery(window).width() > 991){
 		jQuery(window).resize(function() {
 			fixHeightProduct('.wrapper-collection-1 .content-product-list', '.product-resize', '.image-resize');
 		});
 	}
 	fixHeightProduct('.wrapper-collection-2 .content-product-list', '.product-resize', '.image-resize');
-	if(jQuery(window).width() > 991){	
+	if(jQuery(window).width() > 991){
 		jQuery(window).resize(function() {
 			fixHeightProduct('.wrapper-collection-2 .content-product-list', '.product-resize', '.image-resize');
 		});
@@ -310,7 +310,7 @@ jQuery(document).ready(function(){
 		$('#home-slider .owl-carousel').owlCarousel({
 			items:1,
 			nav: false,
-			dots: true,		
+			dots: true,
 			touchDrag: true,
 			lazyLoad: true,
 			responsive:{
@@ -332,22 +332,22 @@ jQuery(document).ready(function(){
 				}, 400);
 			}
 		});
-		if ($('.list-slider-banner').length > 0) {		
-			var checkBanner =	$('.list-slider-banner .home-banner-pd').length;			
+		if ($('.list-slider-banner').length > 0) {
+			var checkBanner =	$('.list-slider-banner .home-banner-pd').length;
 			$('.list-slider-banner').owlCarousel({
 				items: 1,
 				loop: true,
 				dots: false,
 				nav: false,
-				smartSpeed: 1000,				
+				smartSpeed: 1000,
 				responsive: {
 					0: {
 						items: 1,
-						stagePadding: 30,						
+						stagePadding: 30,
 					},
 					480: {
 						items: 1,
-						stagePadding: 50,					
+						stagePadding: 50,
 					},
 					768: {
 						items: 2,
@@ -355,7 +355,7 @@ jQuery(document).ready(function(){
 						nav: true
 					},
 					992: {
-						items: 3,	
+						items: 3,
 						stagePadding: checkBanner > 3?90:0,
 						loop: checkBanner > 3?true:false,
 						nav:checkBanner > 3?true:false,
@@ -378,7 +378,7 @@ jQuery(document).ready(function(){
 	jQuery(document).on("click", ".back-to-top", function(){
 		jQuery(this).removeClass('show');
 		jQuery('html, body').animate({
-			scrollTop: 0			
+			scrollTop: 0
 		}, 800);
 	});
 	/* scroll header */
@@ -399,7 +399,7 @@ jQuery(document).ready(function(){
 			var newWidth = $(window).prop("innerWidth");
 			if (resizeWindow != newWidth) {
 				$header.removeClass('hSticky-up').removeClass('hSticky-nav').removeClass('hSticky');
-				$parentHeader.css('min-height', '');				
+				$parentHeader.css('min-height', '');
 				parentHeight = $parentHeader.find('.main-header').outerHeight();
 				$parentHeader.css('min-height', parentHeight);
 				resizeWindow = newWidth;
@@ -410,21 +410,21 @@ jQuery(document).ready(function(){
 		$parentHeader.css('min-height', '');
 		parentHeight = $parentHeader.find('.main-header').outerHeight();
 		$parentHeader.css('min-height', parentHeight);
-		jQuery(window).scroll(function() {	
+		jQuery(window).scroll(function() {
 			/* scroll header */
-			if(jQuery(window).scrollTop() > offset_sticky_header && jQuery(window).scrollTop() > offset_sticky_down) {		
-				if(jQuery(window).width() > 991){		
+			if(jQuery(window).scrollTop() > offset_sticky_header && jQuery(window).scrollTop() > offset_sticky_down) {
+				if(jQuery(window).width() > 991){
 					$('body').removeClass('locked-scroll');
 					$('.header-action').removeClass('show-action');
 				}
-				$header.addClass('hSticky');	
+				$header.addClass('hSticky');
 				if(jQuery(window).scrollTop() > offset_sticky_header + 150){
-					$header.removeClass('hSticky-up').addClass('hSticky-nav');	
+					$header.removeClass('hSticky-up').addClass('hSticky-nav');
 				}
-			} 
+			}
 			else {
 				if(jQuery(window).scrollTop() > offset_sticky_header + 150 && (jQuery(window).scrollTop() - 150) + jQuery(window).height()  < $(document).height()) {
-					$header.addClass('hSticky-up');	
+					$header.addClass('hSticky-up');
 				}
 			}
 			if (jQuery(window).scrollTop() <= offset_sticky_down && jQuery(window).scrollTop() <= offset_sticky_header) {
@@ -434,19 +434,19 @@ jQuery(document).ready(function(){
 				}
 			}
 			offset_sticky_down = jQuery(window).scrollTop();
-		});	
+		});
 	}, 300);
-	jQuery(window).scroll(function() {		
+	jQuery(window).scroll(function() {
 		/* scroll top */
 		if (jQuery('.back-to-top').length > 0 && jQuery(window).scrollTop() > 500 ) {
 			jQuery('.back-to-top').addClass('show');
 		} else {
 			jQuery('.back-to-top').removeClass('show');
 		}
-	});	
+	});
 	/* backto - product */
 	if($('#backto-page').length > 0){
-		$(document).on("click", "#backto-page", function(){		
+		$(document).on("click", "#backto-page", function(){
 			window.history.back();
 		});
 	}
@@ -468,7 +468,7 @@ jQuery(document).ready(function(){
 		}
 	});
 	$('.header-action-toggle').click(function(e){
-		e.preventDefault();		
+		e.preventDefault();
 		if($(this).parents('.header-action').hasClass('show-action')){
 			$('body').removeClass('locked-scroll');
 			$(this).parents('.header-action').removeClass('show-action');
@@ -476,8 +476,8 @@ jQuery(document).ready(function(){
 		else{
 			$('.header-action').removeClass('show-action');
 			$('body').addClass('locked-scroll');
-			$(this).parents('.header-action').addClass('show-action');		
-		}		
+			$(this).parents('.header-action').addClass('show-action');
+		}
 	});
 	$('body').on('click', '#site-overlay', function(e){
 		$('body').removeClass('locked-scroll');
@@ -490,7 +490,7 @@ jQuery(document).ready(function(){
 			var menu_child_id = $(this).parent().data('menu-root');
 			$('.list-root').addClass('mm-subopened');
 			$('#' + menu_child_id).addClass('mm-opened');
-		} 
+		}
 	})
 	$('.list-child li:first-child a').click(function(){
 		$(this).parents('.list-child').removeClass('mm-opened');
@@ -502,7 +502,7 @@ jQuery(document).ready(function(){
 			var menu_sub_id = $(this).parent().data('menu-root');
 			$('li.level-2').addClass('mm-subopened');
 			$('#' + menu_sub_id).addClass('mm-sub');
-		} 
+		}
 	})
 	$('.sub-child li:first-child a').click(function(){
 		$(this).parents('.sub-child').removeClass('mm-sub');
@@ -514,7 +514,7 @@ jQuery(document).ready(function(){
 			var menu_subnav_id = $(this).parent().data('menu-root');
 			$('li.level-3').addClass('mm-open-3');
 			$('#' +  menu_subnav_id).addClass('mm-sub-3');
-		} 
+		}
 	});
 	$(document).on("click",".sub-child-3 li:first-child a",function(e){
 		$(this).parents('.sub-child-3').removeClass('mm-sub-3');
@@ -523,7 +523,7 @@ jQuery(document).ready(function(){
 	// Dropdown Title
 	jQuery('.title_block').click(function(){
 		$(this).next().slideToggle('medium');
-	});    
+	});
 	$(document).on("click",".dropdown-filter", function(){
 		if ( $(this).parent().attr('aria-expanded') == 'false' ) {
 			$(this).parent().attr('aria-expanded','true');
@@ -574,65 +574,65 @@ jQuery(document).ready(function(){
 	}
 });
 
-/* Search ultimate destop -mobile*/
-$('.ultimate-search').submit(function(e) {
-	e.preventDefault();
-	var q = $(this).find('input[name=q]').val();
-	if(q.indexOf('script') > -1 || q.indexOf('>') > -1){
-		alert('Từ khóa của bạn có chứa mã độc hại ! Vui lòng nhập lại key word khác');
-		$(this).find('input[name=q]').val('');
-	}else{
-		var q_follow = 'product';
-		var query = encodeURIComponent(q);
-		if( !q ) {
-			window.location = '/search?type='+ q_follow +'&q=';
-			return;
-		}	
-		else {
-			window.location = '/search?type=' + q_follow +'&q=' + query;
-			return;
-		}
-	}
-});
-var $input = $('.ultimate-search input[type="text"]');
-$input.bind('keyup change paste propertychange', function() {
-	var key = $(this).val(),
-			$parent = $(this).parents('.wpo-wrapper-search'),
-			$results = $(this).parents('.wpo-wrapper-search').find('.smart-search-wrapper');
-	if(key.indexOf('script') > -1 || key.indexOf('>') > -1){
-		alert('Từ khóa của bạn có chứa mã độc hại ! Vui lòng nhập lại key word khác');
-		$(this).val('');
-		$('.ultimate-search input[type="text"]').val('');
-	}
-	else{
-		if(key.length > 0 ){
-			$('.ultimate-search input[type="text"]').val($(this).val());
-			$(this).attr('data-history', key);
-			var q_follow = 'product',
-					str = '';
-			str = '/search?type=product&q='+ key + '&view=ultimate-product';
-			$.ajax({
-				url: str,
-				type: 'GET',
-				async: true,
-				success: function(data){
-					$results.find('.resultsContent').html(data);
-				}
-			})
-			if(!$('.header-action_search').hasClass('show-action')){
-				$('body').removeClass("locked-scroll");
-				$('.header-action').removeClass('show-action');
-			}
-			$(".search-bar-mobile .ultimate-search").addClass("expanded");
-			$results.fadeIn();
-		}
-		else{
-			$('.ultimate-search input[type="text"]').val($(this).val());
-			$(".search-bar-mobile .ultimate-search").removeClass("expanded");
-			$results.fadeOut();
-		}
-	}
-})
+// /* Search ultimate destop -mobile*/
+// $('.ultimate-search').submit(function(e) {
+// 	e.preventDefault();
+// 	var q = $(this).find('input[name=q]').val();
+// 	if(q.indexOf('script') > -1 || q.indexOf('>') > -1){
+// 		alert('Từ khóa của bạn có chứa mã độc hại ! Vui lòng nhập lại key word khác');
+// 		$(this).find('input[name=q]').val('');
+// 	}else{
+// 		var q_follow = 'product';
+// 		var query = encodeURIComponent(q);
+// 		if( !q ) {
+// 			window.location = '/search?type='+ q_follow +'&q=';
+// 			return;
+// 		}
+// 		else {
+// 			window.location = '/search?type=' + q_follow +'&q=' + query;
+// 			return;
+// 		}
+// 	}
+// });
+// var $input = $('.ultimate-search input[type="text"]');
+// $input.bind('keyup change paste propertychange', function() {
+// 	var key = $(this).val(),
+// 			$parent = $(this).parents('.wpo-wrapper-search'),
+// 			$results = $(this).parents('.wpo-wrapper-search').find('.smart-search-wrapper');
+// 	if(key.indexOf('script') > -1 || key.indexOf('>') > -1){
+// 		alert('Từ khóa của bạn có chứa mã độc hại ! Vui lòng nhập lại key word khác');
+// 		$(this).val('');
+// 		$('.ultimate-search input[type="text"]').val('');
+// 	}
+// 	else{
+// 		if(key.length > 0 ){
+// 			$('.ultimate-search input[type="text"]').val($(this).val());
+// 			$(this).attr('data-history', key);
+// 			var q_follow = 'product',
+// 					str = '';
+// 			str = '/search?type=product&q='+ key + '&view=ultimate-product';
+// 			$.ajax({
+// 				url: str,
+// 				type: 'GET',
+// 				async: true,
+// 				success: function(data){
+// 					$results.find('.resultsContent').html(data);
+// 				}
+// 			})
+// 			if(!$('.header-action_search').hasClass('show-action')){
+// 				$('body').removeClass("locked-scroll");
+// 				$('.header-action').removeClass('show-action');
+// 			}
+// 			$(".search-bar-mobile .ultimate-search").addClass("expanded");
+// 			$results.fadeIn();
+// 		}
+// 		else{
+// 			$('.ultimate-search input[type="text"]').val($(this).val());
+// 			$(".search-bar-mobile .ultimate-search").removeClass("expanded");
+// 			$results.fadeOut();
+// 		}
+// 	}
+// })
 $('body').click(function(evt) {
 	var target = evt.target;
 	if (target.id !== 'ajaxSearchResults' && target.id !== 'inputSearchAuto') {
@@ -671,17 +671,17 @@ jQuery(document).ready(function(){
 			}
 		});
 		$('.content_popupform form.contact-form').submit(function(e){
-			e.preventDefault();		
+			e.preventDefault();
 			$.ajax({
 				type: 'POST',
 				url:'/contact',
 				data: $('.content_popupform form.contact-form').serialize(),
-				success:function(data){		
+				success:function(data){
 					$('.modal-contactform.fade.in').modal('hide');
-					setTimeout(function(){ 		
-						$('.modal-succesform').modal('show');					
-						setTimeout(function(){							
-							$('.modal-succesform.fade.in').modal('hide');	
+					setTimeout(function(){
+						$('.modal-succesform').modal('show');
+						setTimeout(function(){
+							$('.modal-succesform.fade.in').modal('hide');
 						}, 5000);
 					},300);
 				},
@@ -694,14 +694,14 @@ jQuery(document).ready(function(){
 	}
 	if ($('.layoutProduct_scroll').length > 0 && jQuery(window).width() < 768) {
 		var curScrollTop = 0;
-		$(window).scroll(function(){	
+		$(window).scroll(function(){
 			var scrollTop = $(window).scrollTop();
 			if(scrollTop > curScrollTop  && scrollTop > 200 ) {
 				$('.layoutProduct_scroll').removeClass('scroll-down').addClass('scroll-up');
 			}
 			else {
 				if (scrollTop > 200 && scrollTop + $(window).height() + 150 < $(document).height()) {
-					$('.layoutProduct_scroll').removeClass('scroll-up').addClass('scroll-down');	
+					$('.layoutProduct_scroll').removeClass('scroll-up').addClass('scroll-down');
 				}
 			}
 			if(scrollTop < curScrollTop  && scrollTop < 200 ) {
@@ -711,5 +711,3 @@ jQuery(document).ready(function(){
 		});
 	}
 });
-
-

@@ -94,10 +94,10 @@ if ( ! function_exists( 'lep_setup' ) ) :
 		add_theme_support(
 			'custom-logo',
 			array(
-				'height'      => 250,
-				'width'       => 250,
+				'height'      => 70,
+				// 'width'       => 250,
 				'flex-width'  => true,
-				'flex-height' => true,
+				// 'flex-height' => true,
 			)
 		);
 	}
@@ -178,3 +178,21 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+add_filter( 'get_custom_logo', 'change_logo_class' );
+
+
+function change_logo_class( $html ) {
+
+    // $html = str_replace( 'custom-logo', 'img-responsive logoimg', $html );
+    // $html = str_replace( 'custom-logo-link', 'img-responsive logoimg', $html );
+
+    return $html;
+}
+
+function overrideSubmenuClasses( $classes ) {
+    $classes[] = 'sub_menu';
+
+    return $classes;
+}
+add_action('nav_menu_submenu_css_class', 'overrideSubmenuClasses');
