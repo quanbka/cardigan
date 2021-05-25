@@ -206,6 +206,10 @@ register_post_type('slider', [
 	]
 ]);
 
-add_post_type_support( 'slider', 'my_feature', array(
-    'field' => 'value',
-) );
+register_post_type('slider2', [
+	'label' => 'Banner trang chủ',
+	'public' => true,
+	'supports' => [
+		'title', 'thumbnail', 'custom-fields'
+	]
+]);

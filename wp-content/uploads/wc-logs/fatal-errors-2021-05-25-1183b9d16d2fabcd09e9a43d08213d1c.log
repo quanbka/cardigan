@@ -7,3 +7,75 @@ Stack trace:
 #4 {main}
   thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 36
 
+2021-05-25T11:55:52+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /Users/quanbka/cardigan/wp-content/themes/lep/home.php:37
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-includes/template-loader.php(106): include()
+#1 /Users/quanbka/cardigan/wp-blog-header.php(19): require_once('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/index.php(48): require('/Users/quanbka/...')
+#3 /Users/quanbka/.composer/vendor/laravel/valet/server.php(219): require('/Users/quanbka/...')
+#4 {main}
+  thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 37
+
+2021-05-25T11:55:53+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /Users/quanbka/cardigan/wp-content/themes/lep/home.php:37
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-includes/template-loader.php(106): include()
+#1 /Users/quanbka/cardigan/wp-blog-header.php(19): require_once('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/index.php(48): require('/Users/quanbka/...')
+#3 /Users/quanbka/.composer/vendor/laravel/valet/server.php(219): require('/Users/quanbka/...')
+#4 {main}
+  thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 37
+
+2021-05-25T11:55:54+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /Users/quanbka/cardigan/wp-content/themes/lep/home.php:37
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-includes/template-loader.php(106): include()
+#1 /Users/quanbka/cardigan/wp-blog-header.php(19): require_once('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/index.php(48): require('/Users/quanbka/...')
+#3 /Users/quanbka/.composer/vendor/laravel/valet/server.php(219): require('/Users/quanbka/...')
+#4 {main}
+  thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 37
+
+2021-05-25T11:57:01+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /Users/quanbka/cardigan/wp-content/themes/lep/home.php:106
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-includes/template-loader.php(106): include()
+#1 /Users/quanbka/cardigan/wp-blog-header.php(19): require_once('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/index.php(48): require('/Users/quanbka/...')
+#3 /Users/quanbka/.composer/vendor/laravel/valet/server.php(219): require('/Users/quanbka/...')
+#4 {main}
+  thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 106
+
+2021-05-25T11:58:17+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /Users/quanbka/cardigan/wp-content/themes/lep/home.php:106
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-includes/template-loader.php(106): include()
+#1 /Users/quanbka/cardigan/wp-blog-header.php(19): require_once('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/index.php(48): require('/Users/quanbka/...')
+#3 /Users/quanbka/.composer/vendor/laravel/valet/server.php(219): require('/Users/quanbka/...')
+#4 {main}
+  thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 106
+
+2021-05-25T11:58:25+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /Users/quanbka/cardigan/wp-content/themes/lep/home.php:106
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-includes/template-loader.php(106): include()
+#1 /Users/quanbka/cardigan/wp-blog-header.php(19): require_once('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/index.php(48): require('/Users/quanbka/...')
+#3 /Users/quanbka/.composer/vendor/laravel/valet/server.php(219): require('/Users/quanbka/...')
+#4 {main}
+  thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 106
+
+2021-05-25T11:58:26+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /Users/quanbka/cardigan/wp-content/themes/lep/home.php:106
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-includes/template-loader.php(106): include()
+#1 /Users/quanbka/cardigan/wp-blog-header.php(19): require_once('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/index.php(48): require('/Users/quanbka/...')
+#3 /Users/quanbka/.composer/vendor/laravel/valet/server.php(219): require('/Users/quanbka/...')
+#4 {main}
+  thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 106
+
+2021-05-25T11:58:33+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /Users/quanbka/cardigan/wp-content/themes/lep/home.php:106
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-includes/template-loader.php(106): include()
+#1 /Users/quanbka/cardigan/wp-blog-header.php(19): require_once('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/index.php(48): require('/Users/quanbka/...')
+#3 /Users/quanbka/.composer/vendor/laravel/valet/server.php(219): require('/Users/quanbka/...')
+#4 {main}
+  thrown in /Users/quanbka/cardigan/wp-content/themes/lep/home.php on line 106
+
