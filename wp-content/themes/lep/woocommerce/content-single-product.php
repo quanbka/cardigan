@@ -31,7 +31,7 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-<div class="product-detail-wrapper">
+<div id="product-<?php the_ID(); ?>" <?php wc_product_class( 'product-detail-wrapper', $product ); ?>>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
