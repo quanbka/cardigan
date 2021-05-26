@@ -24,44 +24,42 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<li <?php wc_product_class( '', $product ); ?>>
-	<?php
-	/**
-	 * Hook: woocommerce_before_shop_loop_item.
-	 *
-	 * @hooked woocommerce_template_loop_product_link_open - 10
-	 */
-	do_action( 'woocommerce_before_shop_loop_item' );
+<div class="col-md-3 col-sm-6 col-xs-6 pro-loop col-4">
+	<div class="product-block product-resize ">
+		<div class="product-img ">
+			<a href="<?php echo $product->get_permalink() ?>" title="<?php echo $product->get_title() ?>" class="image-resize ratiobox">
+				<?php
+          $image1 = wp_get_attachment_url($product->get_image_id());
+          $image2 = wp_get_attachment_url($product->get_gallery_image_ids()[0]);
+        ?>
+				<picture>
 
-	/**
-	 * Hook: woocommerce_before_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_show_product_loop_sale_flash - 10
-	 * @hooked woocommerce_template_loop_product_thumbnail - 10
-	 */
-	do_action( 'woocommerce_before_shop_loop_item_title' );
+					<img class="lazyload img-loop" data-sizes="auto" data-src="<?php echo $image1 ?>" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+						alt=" <?php echo $product->get_title() ?> " />
+				</picture>
+				<picture>
+					<img class="img-loop img-hover lazyload" data-src="<?php echo $image2 ?>" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+						alt=" <?php echo $product->get_title() ?> " />
+				</picture>
+			</a>
 
-	/**
-	 * Hook: woocommerce_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_template_loop_product_title - 10
-	 */
-	do_action( 'woocommerce_shop_loop_item_title' );
-
-	/**
-	 * Hook: woocommerce_after_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_template_loop_rating - 5
-	 * @hooked woocommerce_template_loop_price - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop_item_title' );
-
-	/**
-	 * Hook: woocommerce_after_shop_loop_item.
-	 *
-	 * @hooked woocommerce_template_loop_product_link_close - 5
-	 * @hooked woocommerce_template_loop_add_to_cart - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop_item' );
-	?>
-</li>
+			<div class="pro-price-mb">
+				<span class="pro-price"><?php echo $product->get_price_html() ?></span>
+			</div>
+		</div>
+		<div class="product-detail clearfix">
+			<div class="box-pro-detail">
+				<h3 class="pro-name">
+					<a href="<?php echo $product->get_permalink() ?>" title="<?php echo $product->get_title() ?>">
+						<?php echo $product->get_title() ?>
+					</a>
+				</h3>
+				<div class="box-pro-prices">
+					<p class="pro-price ">
+						<span><?php echo $product->get_price_html() ?></span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
