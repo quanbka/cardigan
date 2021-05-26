@@ -19,28 +19,34 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
 if ( ! empty( $breadcrumb ) ) {
 
-	echo $wrap_before;
+?>
 
-	foreach ( $breadcrumb as $key => $crumb ) {
+<div class="breadcrumb-shop">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pd5  ">
+				<ol class="breadcrumb breadcrumb-arrows" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<?php foreach ( $breadcrumb as $key => $crumb ) { ?>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<?php
+			if ( ! empty( $crumb[1] ) && sizeof( $breadcrumb ) !== $key + 1 ) {
+				echo '<a href="' . esc_url( $crumb[1] ) . '">' . esc_html( $crumb[0] ) . '</a>';
+			} else {
+				echo esc_html( $crumb[0] );
+			}
+			 ?>
+						<meta itemprop="position" content="1">
+					</li>
+					<?php } ?>
 
-		echo $before;
 
-		if ( ! empty( $crumb[1] ) && sizeof( $breadcrumb ) !== $key + 1 ) {
-			echo '<a href="' . esc_url( $crumb[1] ) . '">' . esc_html( $crumb[0] ) . '</a>';
-		} else {
-			echo esc_html( $crumb[0] );
-		}
 
-		echo $after;
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
 
-		if ( sizeof( $breadcrumb ) !== $key + 1 ) {
-			echo $delimiter;
-		}
-	}
-
-	echo $wrap_after;
-
-}
+<?php } ?>

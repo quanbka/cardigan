@@ -24,41 +24,16 @@ get_header( 'shop' );
 
 
 
-<main class="mainContent-theme ">
+<?php
+	/**
+	 * woocommerce_before_main_content hook.
+	 *
+	 * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
+	 * @hooked woocommerce_breadcrumb - 20
+	 */
+	do_action( 'woocommerce_before_main_content' );
+?>
 
-	<div id="collection" class="collection-page">
-
-		<div class="breadcrumb-shop">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pd5  ">
-						<?php // do_action( 'woocommerce_before_main_content' ); ?>
-						<ol class="breadcrumb breadcrumb-arrows" itemscope itemtype="http://schema.org/BreadcrumbList">
-							<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-								<a href="/" target="_self" itemprop="item"><span itemprop="name">Trang chủ</span></a>
-								<meta itemprop="position" content="1" />
-							</li>
-
-							<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-								<a href="/collections" target="_self" itemprop="item">
-									<span itemprop="name">Danh mục</span>
-								</a>
-								<meta itemprop="position" content="2" />
-							</li>
-
-
-							<li class="active" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-								<span itemprop="item" content="https://lep.vn/collections/hot-products"><span itemprop="name">Sản phẩm mới</span></span>
-								<meta itemprop="position" content="3" />
-							</li>
-
-
-
-						</ol>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<div class="main-content ">
 			<div class="container-fluid">
