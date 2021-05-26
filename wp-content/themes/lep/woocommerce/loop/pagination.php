@@ -28,24 +28,29 @@ if ( $total <= 1 ) {
 	return;
 }
 ?>
-<nav class="woocommerce-pagination">
-	<?php
-	echo paginate_links(
-		apply_filters(
-			'woocommerce_pagination_args',
-			array( // WPCS: XSS ok.
-				'base'      => $base,
-				'format'    => $format,
-				'add_args'  => false,
-				'current'   => max( 1, $current ),
-				'total'     => $total,
-				'prev_text' => is_rtl() ? '&rarr;' : '&larr;',
-				'next_text' => is_rtl() ? '&larr;' : '&rarr;',
-				'type'      => 'list',
-				'end_size'  => 3,
-				'mid_size'  => 3,
-			)
-		)
-	);
-	?>
-</nav>
+
+<style media="screen">
+	#pagination li, #pagination span {
+		display: inline-block;
+		padding: 10px;
+	}
+</style>
+
+<div class="sortpagibar pagi clearfix text-center">
+	<div id="pagination" class="clearfix">
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+			<?php
+			echo paginate_links(
+				apply_filters(
+					'woocommerce_pagination_args', []
+				)
+			);
+			?>
+
+		</div>
+
+
+	</div>
+</div>

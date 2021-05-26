@@ -1,0 +1,10 @@
+2021-05-26T06:59:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /Users/quanbka/cardigan/wp-content/themes/lep/woocommerce/loop/pagination.php on line 47 and exactly 2 expected in /Users/quanbka/cardigan/wp-includes/plugin.php:187
+Stack trace:
+#0 /Users/quanbka/cardigan/wp-content/themes/lep/woocommerce/loop/pagination.php(47): apply_filters('woocommerce_pag...')
+#1 /Users/quanbka/cardigan/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/quanbka/...')
+#2 /Users/quanbka/cardigan/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1468): wc_get_template('loop/pagination...', Array)
+#3 /Users/quanbka/cardigan/wp-includes/class-wp-hook.php(292): woocommerce_pagination('')
+#4 /Users/quanbka/cardigan/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 /Users/quanbka/cardigan/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /Users/quanbka/cardigan/wp-content/themes/lep/woocommerce/archive-product.php(147): do_action in /Users/quanbka/cardigan/wp-includes/plugin.php on line 187
+

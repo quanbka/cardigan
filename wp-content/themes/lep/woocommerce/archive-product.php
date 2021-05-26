@@ -132,7 +132,7 @@ get_header( 'shop' );
 										 *
 										 * @hooked woocommerce_pagination - 10
 										 */
-										do_action( 'woocommerce_after_shop_loop' );
+										// do_action( 'woocommerce_after_shop_loop' );
 									} else {
 										/**
 										 * Hook: woocommerce_no_products_found.
@@ -144,37 +144,8 @@ get_header( 'shop' );
 									?>
 
 								</div>
-								<div class="sortpagibar pagi clearfix text-center">
-									<div id="pagination" class="clearfix">
+								<?php  do_action( 'woocommerce_after_shop_loop' ); ?>
 
-										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-
-
-
-											<span class="page-node current">1</span>
-
-
-
-											<a class="page-node" href="/collections/hot-products?page=2">2</a>
-
-
-
-											<a class="page-node" href="/collections/hot-products?page=3">3</a>
-
-
-
-
-											<a class="next" href="/collections/hot-products?page=2">
-												<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31 10" style="enable-background:new 0 0 31 10; width: 31px; height: 10px;" xml:space="preserve">
-													<polygon points="31,5 25,0 25,4 0,4 0,6 25,6 25,10 "></polygon>
-												</svg> </a>
-
-										</div>
-
-
-									</div>
-								</div>
 							</div>
 
 						</div>
@@ -183,53 +154,9 @@ get_header( 'shop' );
 			</div>
 		</div>
 
-		<input type="text" class="hidden" id="coll-handle" value="(collectionid:product=1002423532)" />
 	</div>
-	<script>
-		Haravan.queryParams = {};
-		if (location.search.length) {
-			for (var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
-				aKeyValue = aCouples[i].split('=');
-				if (aKeyValue.length > 1) {
-					Haravan.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
-				}
-			}
-		}
-		var collFilters = jQuery('.coll-filter');
-		collFilters.change(function() {
-			var newTags = [];
-			var newURL = '';
-			delete Haravan.queryParams.page;
-			collFilters.each(function() {
-				if (jQuery(this).val()) {
-					newTags.push(jQuery(this).val());
-				}
-			});
-
-			newURL = '/collections/' + 'hot-products';
-			if (newTags.length) {
-				newURL += '/' + newTags.join('+');
-			}
-			var search = jQuery.param(Haravan.queryParams);
-			if (search.length) {
-				newURL += '?' + search;
-			}
-			location.href = newURL;
-
-		});
-		jQuery('.sort-by')
-			.val('manual')
-			.bind('change', function() {
-				Haravan.queryParams.sort_by = jQuery(this).val();
-				location.search = jQuery.param(Haravan.queryParams);
-			});
-	</script>
-
-
-
 
 </main>
-
 
 <?php
 
