@@ -36,7 +36,7 @@ $wrapper_classes   = apply_filters(
 	)
 );
 ?>
-<div class="<?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
+<div class="gallery <?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
 	<figure class="woocommerce-product-gallery__wrapper">
 		<?php
 		if ( $post_thumbnail_id ) {
@@ -53,3 +53,29 @@ $wrapper_classes   = apply_filters(
 		?>
 	</figure>
 </div>
+
+<style media="screen">
+	.gallery {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	img {
+		height: auto;
+	}
+	.gallery > div {
+		flex: 5;
+	}
+	.gallery ol {
+	    flex: 1;
+		margin-right: 10px;
+	}
+	.gallery ol li {
+		list-style-type: none;
+		display: block;
+		/* margin-right: 20px; */
+		margin-bottom: 10px;
+	}
+	.gallery ol li img {
+		width: 100%;
+	}
+</style>
