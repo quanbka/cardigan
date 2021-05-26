@@ -15550,19 +15550,6 @@
 	</style>
 
 	<link href='/200000258383/1000664579/14/styles.css?v=728' rel='stylesheet' type='text/css' media='all' />
-	<!--+++++++++++++++++++++++++  JS ++++++++++++++++++++++++-->
-	<script src='/200000258383/1000664579/14/jquery.min.1.11.0.js?v=728' type='text/javascript'></script>
-	<script>
-		var template = 'index';
-		var formatMoney = '{{amount}}₫';
-		jQuery.themeAssets = {
-			arrowDown: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 8" style="enable-background:new 0 0 12 8; width: 12px; height: 8px;" xml:space="preserve"><polyline points="0,2 2,0 6,4 10,0 12,2 6,8 0,2 "/></svg>',
-			arrowRight: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31 10" style="enable-background:new 0 0 31 10; width: 31px; height: 10px;" xml:space="preserve"><polygon points="31,5 25,0 25,4 0,4 0,6 25,6 25,10 "/></svg>',
-		};
-		jQuery.themeCartSettings = 'overlay';
-	</script>
-
-
 
 
 
@@ -15572,9 +15559,19 @@
 		}
 	</style>
 	<?php
-	wp_deregister_script('jquery');
+	// wp_deregister_script('jquery');
 	wp_head();
 	 ?>
+	 <script src='/200000258383/1000664579/14/jquery.min.1.11.0.js?v=728' type='text/javascript'></script>
+ 	<script>
+ 		var template = 'index';
+ 		var formatMoney = '{{amount}}₫';
+ 		jQuery.themeAssets = {
+ 			arrowDown: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 8" style="enable-background:new 0 0 12 8; width: 12px; height: 8px;" xml:space="preserve"><polyline points="0,2 2,0 6,4 10,0 12,2 6,8 0,2 "/></svg>',
+ 			arrowRight: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31 10" style="enable-background:new 0 0 31 10; width: 31px; height: 10px;" xml:space="preserve"><polygon points="31,5 25,0 25,4 0,4 0,6 25,6 25,10 "/></svg>',
+ 		};
+ 		jQuery.themeCartSettings = 'overlay';
+ 	</script>
 </head>
 
 <body id="lama-theme" class="index">
