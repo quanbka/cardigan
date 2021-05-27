@@ -31,11 +31,32 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 	<?php if ( empty( $available_variations ) && false !== $available_variations ) : ?>
 		<p class="stock out-of-stock"><?php echo esc_html( apply_filters( 'woocommerce_out_of_stock_message', __( 'This product is currently out of stock and unavailable.', 'woocommerce' ) ) ); ?></p>
 	<?php else : ?>
+		<style media="screen">
+			.label, .reset_variations {
+				color: black;
+				display: none !important;
+			}
+			li.variable-item {
+				display: inline-block;
+				border: 1px solid black;
+				text-align: center;
+				margin-right: 10px;
+				line-height: 30px;
+				/* padding: 20px; */
+			}
+			li.variable-item.selected {
+				background-color: black;
+				color: white;
+			}
+		</style>
 		<table class="variations" cellspacing="0">
 			<tbody>
 				<?php foreach ( $attributes as $attribute_name => $options ) : ?>
 					<tr>
-						<td class="label"><label for="<?php echo esc_attr( sanitize_title( $attribute_name ) ); ?>"><?php echo wc_attribute_label( $attribute_name ); // WPCS: XSS ok. ?></label></td>
+
+						<td class="label">
+							<label for="<?php echo esc_attr( sanitize_title( $attribute_name ) ); ?>"><?php echo wc_attribute_label( $attribute_name ); // WPCS: XSS ok. ?></label>
+						</td>
 						<td class="value">
 							<?php
 								wc_dropdown_variation_attribute_options(
