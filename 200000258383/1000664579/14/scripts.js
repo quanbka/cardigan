@@ -303,9 +303,9 @@ function boxAccount(type){
 };
 jQuery(document).ready(function(){
 	// Get number item for cart header
-	$.get('/cart.js').done(function(cart){
-		$('.cart-menu .count').html(cart.item_count);
-	});
+	// $.get('/cart.js').done(function(cart){
+	// 	$('.cart-menu .count').html(cart.item_count);
+	// });
 	if (window.template.indexOf('index') > -1) {
 		$('#home-slider .owl-carousel').owlCarousel({
 			items:1,
