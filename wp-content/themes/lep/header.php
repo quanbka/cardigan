@@ -15547,6 +15547,9 @@
 			height: 100%;
 			width: 100%
 		}
+		.attachment-woocommerce_thumbnail {
+			width: 80px;
+		}
 	</style>
 
 	<link href='/200000258383/1000664579/14/styles.css?v=728' rel='stylesheet' type='text/css' media='all' />
