@@ -10,7 +10,7 @@
 					<div class="area_phone_contact">
 						<p class="number_phone">
 							<i class="fa fa-phone "></i>
-							<span>Bất cứ khi nào nàng cần, đã có Lep' hỗ trợ nàng 24/7!</span>
+							<span>Bất cứ khi nào nàng cần, đã có Cardigan' hỗ trợ nàng 24/7!</span>
 							<a href="tel:0393644116">
 								0393644116
 							</a>
@@ -38,7 +38,7 @@
 						</h4>
 						<div class="footer-content">
 
-							<p>Váy của Lep’ không dành cho các cô gái “ngoan” luôn e dè sợ sệt. Váy của Lep’ là những em váy hoa nhí nhìn là đã thấy rực rỡ yêu đời. </p>
+							<p>Váy của Cardigan’ không dành cho các cô gái “ngoan” luôn e dè sợ sệt. Váy của Cardigan’ là những em váy hoa nhí nhìn là đã thấy rực rỡ yêu đời. </p>
 
 
 							<div class="logo-footer">
@@ -108,7 +108,7 @@
 								<li class="contact-1">Số 61, ngách 41, ngõ 164 Vương Thừa Vũ, phường Khương Trung, quận Thanh Xuân, thành phố Hà Nội, Việt Nam</li>
 								<li class="contact-2">0393644116</li>
 								<li class="contact-3">Số giấy ĐKKD 0108175559, do Sở Kế hoạch và Đầu tư thành phố Hà Nội cấp ngày 08/03/2018</li>
-								<li class="contact-4">info@lep.vn</li>
+								<li class="contact-4">info@cardigan.com.vn</li>
 							</ul>
 						</div>
 					</div>
@@ -132,7 +132,7 @@
 	</div>
 	<div class="bottom-footer text-center">
 		<div class="container-fluid">
-			<p>Copyright © 2021 <a href=""> Lep' Dress</a>.</p>
+			<p>Copyright © 2021 <a href=""> Cardigan' Dress</a>.</p>
 		</div>
 	</div>
 </footer>
@@ -184,7 +184,7 @@
 
 
 	<div class="item">
-		<a href="https://www.m.me/Lep.by.Tram/"><img src="/200000258383/1000664579/14/anhicon1.png?v=728" alt="social" /></a>
+		<a href="https://www.m.me/Cardigan.by.Tram/"><img src="/200000258383/1000664579/14/anhicon1.png?v=728" alt="social" /></a>
 	</div>
 
 
