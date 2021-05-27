@@ -80,7 +80,9 @@ if ( post_password_required() ) {
 				* @hooked woocommerce_upsell_display - 15
 				* @hooked woocommerce_output_related_products - 20
 				*/
-				do_action( 'woocommerce_after_single_product_summary' );
+				// do_action( 'woocommerce_after_single_product_summary' );
+				woocommerce_upsell_display();
+				woocommerce_output_related_products();
 				?>
 			</div>
 		</div>
