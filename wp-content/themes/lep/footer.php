@@ -11,8 +11,8 @@
 						<p class="number_phone">
 							<i class="fa fa-phone "></i>
 							<span>Bất cứ khi nào nàng cần, đã có Cardigan' hỗ trợ nàng 24/7!</span>
-							<a href="tel:0393644116">
-								0393644116
+							<a href="tel:0898606788">
+								0898606788
 							</a>
 						</p>
 					</div>
@@ -38,7 +38,8 @@
 						</h4>
 						<div class="footer-content">
 
-							<p>Váy của Cardigan’ không dành cho các cô gái “ngoan” luôn e dè sợ sệt. Váy của Cardigan’ là những em váy hoa nhí nhìn là đã thấy rực rỡ yêu đời. </p>
+							<p>Cảm ơn bạn đã lựa chọn Cardigan. Với Cardigan, thời trang không chỉ là mặc đẹp mà còn là sắc màu cuộc sống với những sản phẩm ra đời bằng tình yêu và tâm huyết. Cardigan mong Bạn hãy luôn yêu thương và quý trọng bản thân. Bạn rất xinh đẹp, Bạn rất tuyệt vời !!!
+</p>
 
 
 							<div class="logo-footer">
@@ -59,10 +60,6 @@
 						</h4>
 						<div class="footer-content toggle-footer">
 							<ul>
-
-								<li class="item">
-									<a href="/search" title="Tìm kiếm">Tìm kiếm</a>
-								</li>
 
 								<li class="item">
 									<a href="/pages/about-us" title="Giới thiệu">Giới thiệu</a>
@@ -101,14 +98,14 @@
 				<div class="col-xs-12 col-sm-6 col-md-3 col-lg">
 					<div class="footer-col">
 						<h4 class="footer-title">
-							CÔNG TY TNHH THỜI TRANG SONG BÌNH
+						STORE THỜI TRANG CADIGAN
 						</h4>
 						<div class="footer-content footer-contact">
 							<ul>
-								<li class="contact-1">Số 61, ngách 41, ngõ 164 Vương Thừa Vũ, phường Khương Trung, quận Thanh Xuân, thành phố Hà Nội, Việt Nam</li>
-								<li class="contact-2">0393644116</li>
-								<li class="contact-3">Số giấy ĐKKD 0108175559, do Sở Kế hoạch và Đầu tư thành phố Hà Nội cấp ngày 08/03/2018</li>
-								<li class="contact-4">info@cardigan.com.vn</li>
+								<li class="contact-1">162 Nguyễn Văn Cừ, Tp.Vinh, Nghệ An</li>
+								<li class="contact-2">08.986.067.88</li>
+								<li class="contact-3">Số giấy ĐKKD 27A8019934, Do UBND thành phố Vinh cấp ngày 04/08/2017</li>
+								<li class="contact-4">Vinhvcu@gmail.com</li>
 							</ul>
 						</div>
 					</div>
