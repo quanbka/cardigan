@@ -23,18 +23,13 @@
 		</div>
 	</div>
 	<!-- Nhóm 1 -->
-	<?php
-		$newArrivalsCategory = get_terms('product_cat', [
-			'number' => 1,
-		]);
-		$newArrivalsCategory = $newArrivalsCategory[0];
-	 ?>
+
 	<section class="section section-collection">
 		<div class="wrapper-heading-home animation-tran text-center">
 			<div class="container-fluid">
 				<div class="site-animation">
 					<h2>
-						<a href="<?php echo get_term_link($newArrivalsCategory) ?>"><?php echo $newArrivalsCategory->name ?></a>
+						<a href="/shop/?orderby=date">Sản phẩm mới nhất</a>
 					</h2>
 				</div>
 			</div>
@@ -45,8 +40,6 @@
 					<div class="clearfix content-product-list">
 						<?php
 							$args = array(
-								'category' => $category,
-								'orderby'  => 'name',
 								'number' => 10
 							);
 							$products = wc_get_products( $args );
@@ -91,48 +84,7 @@
 			<?php endforeach; ?>
 		</div>
 	</div>
-	<!-- Nhóm 2 -->
-	<?php
-		$newArrivalsCategory = get_terms('product_cat', [
-			'number' => 2,
-		]);
-		$newArrivalsCategory = $newArrivalsCategory[1];
-	 ?>
-	<section class="section section-collection">
-		<div class="wrapper-heading-home animation-tran text-center">
-			<div class="container-fluid">
-				<div class="site-animation">
-					<h2>
-						<a href="<?php echo get_term_link($newArrivalsCategory) ?>">
-							<?php echo $newArrivalsCategory->name ?>
-						</a>
-					</h2>
-				</div>
-			</div>
-		</div>
-		<div class="wrapper-collection-1">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="clearfix content-product-list">
-						<?php
-							$args = array(
-								'category' => $category,
-								'orderby'  => 'name',
-								'number' => 10
-							);
-							$products = wc_get_products( $args );
-							foreach ($products as $key => $product) {
-								global $product;
-									 get_template_part('box');
-									// get_template
+	
 
-							}
-						 ?>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 </main>
 <?php get_footer(); ?>
