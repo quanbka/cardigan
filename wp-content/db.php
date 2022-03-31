@@ -1,1 +1,0 @@
-/Users/quanbka/cardigan/wp-content/plugins/query-monitor/wp-content/db.php
