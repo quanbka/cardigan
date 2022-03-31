@@ -10,9 +10,9 @@
 					<div class="area_phone_contact">
 						<p class="number_phone">
 							<i class="fa fa-phone "></i>
-							<span>Bất cứ khi nào nàng cần, đã có Cardigan' hỗ trợ nàng 24/7!</span>
-							<a href="tel:0898606788">
-								0898606788
+							<span>Bất cứ khi nào nàng cần, đã có Wado' hỗ trợ nàng 24/7!</span>
+							<a href="tel:0368750618">
+								0368750618
 							</a>
 						</p>
 					</div>
@@ -38,7 +38,7 @@
 						</h4>
 						<div class="footer-content">
 
-							<p>Cảm ơn bạn đã lựa chọn Cardigan. Với Cardigan, thời trang không chỉ là mặc đẹp mà còn là sắc màu cuộc sống với những sản phẩm ra đời bằng tình yêu và tâm huyết. Cardigan mong Bạn hãy luôn yêu thương và quý trọng bản thân. Bạn rất xinh đẹp, Bạn rất tuyệt vời !!!
+							<p>Cảm ơn bạn đã lựa chọn Wado. Với Wado, thời trang không chỉ là mặc đẹp mà còn là sắc màu cuộc sống với những sản phẩm ra đời bằng tình yêu và tâm huyết. Wado mong Bạn hãy luôn yêu thương và quý trọng bản thân. Bạn rất xinh đẹp, Bạn rất tuyệt vời !!!
 </p>
 
 
@@ -129,7 +129,7 @@
 	</div>
 	<div class="bottom-footer text-center">
 		<div class="container-fluid">
-			<p>Copyright © 2021 <a href=""> Cardigan' Dress</a>.</p>
+			<p>Copyright © 2021 <a href=""> Wado' Dress</a>.</p>
 		</div>
 	</div>
 </footer>
@@ -158,14 +158,14 @@
             </svg>
         </svg>
     </a>
-    
-    
+
+
 </div>
 <style type="text/css" media="all">
 h5:not([class^="tt-title"]):not([class^="tt-collapse"]):not([class^="tt-aside"]) {
     font-size: 15px !important;
 }
-    
+
 </style>
 
 			<div class="back-to-top hidden">
