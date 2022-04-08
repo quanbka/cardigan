@@ -56,6 +56,70 @@
 			</div>
 		</div>
 	</section>
+	<section class="section section-collection">
+		<div class="wrapper-heading-home animation-tran text-center">
+			<div class="container-fluid">
+				<div class="site-animation">
+					<h2>
+						<a href="/shop/?orderby=date">Sản phẩm mới nhất</a>
+					</h2>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper-collection-1">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="clearfix content-product-list">
+						<?php
+							$args = array(
+								'number' => 10
+							);
+							$products = wc_get_products( $args );
+							foreach ($products as $key => $product) {
+								global $product;
+									 get_template_part('box');
+									// get_template
+
+							}
+						 ?>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section section-collection">
+		<div class="wrapper-heading-home animation-tran text-center">
+			<div class="container-fluid">
+				<div class="site-animation">
+					<h2>
+						<a href="/shop/?orderby=date">Sản phẩm mới nhất</a>
+					</h2>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper-collection-1">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="clearfix content-product-list">
+						<?php
+							$args = array(
+								'number' => 10
+							);
+							$products = wc_get_products( $args );
+							foreach ($products as $key => $product) {
+								global $product;
+									 get_template_part('box');
+									// get_template
+
+							}
+						 ?>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<style media="screen">
 		.wp-post-image {
 			height: auto;
@@ -84,7 +148,7 @@
 			<?php endforeach; ?>
 		</div>
 	</div>
-	
+
 
 </main>
 <?php get_footer(); ?>
