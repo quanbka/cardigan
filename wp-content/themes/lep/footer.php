@@ -102,10 +102,10 @@
 						</h4>
 						<div class="footer-content footer-contact">
 							<ul>
-								<li class="contact-1">162 Nguyễn Văn Cừ, Tp.Vinh, Nghệ An</li>
-								<li class="contact-2">08.986.067.88</li>
+								<li class="contact-1"> Địa chỉ </li>
+								<li class="contact-2"> Hotline </li>
 								<li class="contact-3">Số giấy ĐKKD 27A8019934, Do UBND thành phố Vinh cấp ngày 04/08/2017</li>
-								<li class="contact-4">Vinhvcu@gmail.com</li>
+								<li class="contact-4"> Email</li>
 							</ul>
 						</div>
 					</div>

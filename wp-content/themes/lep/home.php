@@ -24,12 +24,25 @@
 	</div>
 	<!-- Nhóm 1 -->
 
+	<!--  -->
+
+
+	<?php 
+		$categories = [
+			'du-lich', 'bo-hoa-qua', 'cong-ty-nha-hang', 'tap-de', 'ao-phong',
+		];
+		foreach ($categories as $category) :
+			$ctgObject = get_term_by('slug', $category, 'product_cat');
+			$url = esc_url(get_term_link($ctgObject));
+			$name = ($ctgObject->name );
+	?>
+
 	<section class="section section-collection">
 		<div class="wrapper-heading-home animation-tran text-center">
 			<div class="container-fluid">
 				<div class="site-animation">
 					<h2>
-						<a href="/shop/?orderby=date">Sản phẩm mới nhất</a>
+						<a href="<?php echo $url ?>"><?php echo $name ?></a>
 					</h2>
 				</div>
 			</div>
@@ -40,7 +53,8 @@
 					<div class="clearfix content-product-list">
 						<?php
 							$args = array(
-								'number' => 10
+								'number' => 10,
+								'category' => array( $category ),
 							);
 							$products = wc_get_products( $args );
 							foreach ($products as $key => $product) {
@@ -56,70 +70,9 @@
 			</div>
 		</div>
 	</section>
-	<section class="section section-collection">
-		<div class="wrapper-heading-home animation-tran text-center">
-			<div class="container-fluid">
-				<div class="site-animation">
-					<h2>
-						<a href="/shop/?orderby=date">Sản phẩm mới nhất</a>
-					</h2>
-				</div>
-			</div>
-		</div>
-		<div class="wrapper-collection-1">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="clearfix content-product-list">
-						<?php
-							$args = array(
-								'number' => 10
-							);
-							$products = wc_get_products( $args );
-							foreach ($products as $key => $product) {
-								global $product;
-									 get_template_part('box');
-									// get_template
 
-							}
-						 ?>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section section-collection">
-		<div class="wrapper-heading-home animation-tran text-center">
-			<div class="container-fluid">
-				<div class="site-animation">
-					<h2>
-						<a href="/shop/?orderby=date">Sản phẩm mới nhất</a>
-					</h2>
-				</div>
-			</div>
-		</div>
-		<div class="wrapper-collection-1">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="clearfix content-product-list">
-						<?php
-							$args = array(
-								'number' => 10
-							);
-							$products = wc_get_products( $args );
-							foreach ($products as $key => $product) {
-								global $product;
-									 get_template_part('box');
-									// get_template
-
-							}
-						 ?>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php endforeach; ?>
+	
 	<style media="screen">
 		.wp-post-image {
 			height: auto;
