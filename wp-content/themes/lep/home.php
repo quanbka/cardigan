@@ -35,16 +35,29 @@
 			$ctgObject = get_term_by('slug', $category, 'product_cat');
 			$url = esc_url(get_term_link($ctgObject));
 			$name = ($ctgObject->name );
+			$img = get_term_meta($ctgObject->term_id, 'thumbnail_id', true);
+		
+			
 	?>
+
+		
 
 	<section class="section section-collection">
 		<div class="wrapper-heading-home animation-tran text-center">
 			<div class="container-fluid">
+				<a href="<?php echo $url ?>">
+				<?php
+					if ($img) {
+						$img = wp_get_attachment_url($img);
+						echo "<img style='width: 100%;' src='$img'>";
+				 	} else {
+				?>
 				<div class="site-animation">
 					<h2>
-						<a href="<?php echo $url ?>"><?php echo $name ?></a>
+						<?php echo $name ?></a>
 					</h2>
 				</div>
+				<?php } ?>
 			</div>
 		</div>
 		<div class="wrapper-collection-1">

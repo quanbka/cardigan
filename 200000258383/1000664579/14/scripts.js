@@ -308,6 +308,7 @@ jQuery(document).ready(function(){
 	// });
 	if (window.template.indexOf('index') > -1) {
 		$('#home-slider .owl-carousel').owlCarousel({
+			autoplay: true,
 			items:1,
 			nav: false,
 			dots: true,
